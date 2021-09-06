@@ -147,7 +147,14 @@ p {
 }
 
 footer {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cuore {
+    color: red;
+    font-size: 20px;
 }
 
 .clearfix::after {
