@@ -65,13 +65,30 @@ a {
 
 .sezione1 {
     margin-bottom: 1rem;
+    background-image: url(./img/banner.jpg);
+    width: 100%;
+    height: 350px;
+    border-radius: 2%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgray;
+    background-blend-mode: multiply;
 }
 
-.img1 {
-    width: 600px;
-    height: 350px;
-    filter: brightness(85%);
-    border-radius: 2%;
+.titolo1 {
+    font-size: 25px;
+}
+
+.paragrafetto {
+    font-size: small;
+}
+
+.contenitore {
+    position: absolute;
+    bottom: 180px;
+    margin-left: 30px;
+    color: white;
 }
 
 .sezione2 {
@@ -97,27 +114,30 @@ p {
 }
 
 .img2 {
-    filter: brightness(85%);
+    filter: brightness(80%);
     border-radius: 5%;
-    width: 150px;
+    width: 100%;
     height: 150px;
     margin-bottom: 0.5rem;
+    object-fit: cover;
 }
 
 .img3 {
     width: 100%;
-    filter: brightness(85%);
+    filter: brightness(80%);
     border-radius: 5%;
     height: 150px;
     margin-bottom: 0.5rem;
+    object-fit: cover;
 }
 
 .img4 {
     width: 100%;
-    filter: brightness(85%);
+    filter: brightness(80%);
     border-radius: 5%;
     height: 150px;
     margin-bottom: 0.5rem;
+    object-fit: cover;
 }
 
 .titolo2 {
