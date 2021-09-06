@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.debug>header {
+    height: 150px;
+}
+
+.debug .sezione1 {
+    height: 200px;
+}
+
+.debug .sezione2 {
+    height: 40px;
+    background-color: lightblue;
+}
+
+.debug .rightside {
+    height: 200px;
+    background-color: blue;
+}
+
+.debug .leftside {
+    height: 200px;
+    background-color: blue;
+}
+
+.debug .central {
+    height: 200px;
+    background-color: orange;
+}
+
+.debug .footer {
+    height: 20px;
+}
+
+/* /common rules */
+
+header {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+img {
+    block-size: 50px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.sezione1 {
+    width: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.sezione2 {
+    width: auto;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.rightside {
+    width: 25%;
+    float: right;
+}
+
+.central {
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.leftside {
+    width: 25%;
+    float: right;
+}
+
+footer {
+    margin-top: 0.5rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
