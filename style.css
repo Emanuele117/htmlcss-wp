@@ -7,39 +7,37 @@
 body {
     margin-left: 20%;
     margin-right: 20%;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.debug>header {
+/* .debug>header {
     height: 150px;
-}
+} */
 
-.debug .sezione1 {
+/* .debug .sezione1 {
     height: 350px;
-}
+    background-color: yellow;
+}*/
 
-.debug .sezione2 {
+/* .debug .sezione2 {
     height: 40px;
-    background-color: lightblue;
-}
+} */
 
-.debug .rightside {
+/* .debug .rightside {
     height: 200px;
-    background-color: blue;
-}
+} */
 
-.debug .leftside {
+/* .debug .leftside {
     height: 200px;
-    background-color: blue;
-}
+} */
 
-.debug .central {
-    height: 200px;
-    background-color: orange;
-}
+/* .debug .central {
+    height: 100px;
+} */
 
-.debug .footer {
+/* .debug .footer {
     height: 20px;
-}
+} */
 
 /* /common rules */
 
@@ -53,47 +51,99 @@ header {
     margin-bottom: 1.5rem;
 }
 
+.links {
+    margin-bottom: 0.5rem;
+}
+
 a {
     text-decoration: none;
     margin: 0.3rem;
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
     color: black;
     opacity: 40%;
 }
 
-.immagine {
-    width: auto;
-    height: 350px;
+.sezione1 {
+    margin-bottom: 1rem;
 }
 
-.sezione1 {
-    width: auto;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+.img1 {
+    width: 600px;
+    height: 350px;
+    filter: brightness(85%);
+    border-radius: 2%;
 }
 
 .sezione2 {
     width: auto;
     margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.titolo {
+    font-size: 25px;
+}
+
+p {
+    opacity: 40%;
+    color: rgb(46, 21, 21);
+    font-size: 12px;
 }
 
 .rightside {
     width: 25%;
     float: right;
+    margin-left: 2.5%;
+}
+
+.img2 {
+    filter: brightness(85%);
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0.5rem;
+}
+
+.img3 {
+    width: 100%;
+    filter: brightness(85%);
+    border-radius: 5%;
+    height: 150px;
+    margin-bottom: 0.5rem;
+}
+
+.img4 {
+    width: 100%;
+    filter: brightness(85%);
+    border-radius: 5%;
+    height: 150px;
+    margin-bottom: 0.5rem;
+}
+
+.titolo2 {
+    opacity: 75%;
+    margin-bottom: 0.5rem;
+}
+
+.titolo3 {
+    opacity: 75%;
+    margin-bottom: 0.5rem;
+}
+
+.titolo4 {
+    opacity: 75%;
+    margin-bottom: 0.5rem;
 }
 
 .central {
-    width: 40%;
+    width: 45%;
     float: right;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 .leftside {
     width: 25%;
     float: right;
+    margin-right: 2.5%;
 }
 
 footer {
