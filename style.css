@@ -49,11 +49,17 @@ header {
 }
 
 img {
-    block-size: 50px;
+    block-size: 65px;
+    margin-bottom: 1.5rem;
 }
 
-.links {
+a {
     text-decoration: none;
+    margin: 0.3rem;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    opacity: 40%;
 }
 
 .sezione1 {
